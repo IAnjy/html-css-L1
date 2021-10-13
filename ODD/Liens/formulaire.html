@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Formulaire d'inscription</title>
+ <link rel="stylesheet" type="text/css" href="Css/formulaireCSS.css">
+</head>
+<body>
+    <img class="sary" id="haut" src="Css/Volontaire.jpg" width="850" height="100">
+
+    <h1 class="h1">Avez-vous 18 ans ou plus? Souhaitez-vous faire partie de l'Agenda 2030? <br> 
+        Devenez Bénévole des Objectifs de Développement Durable</h1>
+
+    <form >
+        <div9 id="section1">
+            <label for="nom" >Nom : </label><br>
+            <input type="text" name="nom" id="nom" autofocus required autocomplete="off"><br>
+    
+            <label for="prenom">Prénom(s) : </label><br>
+            <input type="text" name="prenom" id="prenom" required autocomplete="off" ><br>
+    
+            <label for="naissance">Date de naissance : </label><br>
+            <input type="date" name="naissance" id="naissance" required autocomplete="off"><br>
+    
+            Sexe : <br>
+            <input type="radio" name="sexe" value="sexe" id="homme" required>
+            <label for="homme "> Masculin </label>
+            <input type="radio" name="sexe" value="sexe" id="femme" required>
+            <label for="femme"> Féminin </label>
+            <input type="radio" name="sexe" value="sexe" id="autre" required>
+            <label for="autre"> Autre </label><br>
+    
+            Pays :<br>
+            <select name="pays" required>
+                <option value="Afrique_du_Sud">Afrique du Sud</option>
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="Albanie">Albanie</option>
+                <option value="Algérie">Algérie</option>
+                <option value="Angola">Angola</option>
+                <option value="Allemagne">Allemagne</option>
+                <option value="Andorre">Andorre</option>
+                <option value="Antigua-et-Barbuda">Antigua-et-Barbuda</option>
+                <option value="Arabie Saoudite">Arabie Saoudite</option>
+                <option value="Argentine">Argentine</option>
+                <option value="Arménie">Arménie</option>
+                <option value="Australie">Australie</option>
+                <option value="Autriche">Autriche</option>
+                <option value="Azerbaïdjan">Azerbaïdjan</option>
+                <option value="Bahamas">Bahamas</option>
+                <option value="Bahreïn">Bahreïn</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="Bénin">Bénin</option>
+                <option value="Brésil">Brésil</option>
+                <option value="Brunei">Brunei</option>
+                <option value="Barbade">Barbade</option>
+                <option value="Brunei">Brunei</option>
+                <option value="Bulgarie">Bulgarie</option>
+                <option value="Cameroun">Cameroun</option>
+                <option value="Canada">Canada</option>
+                <option value="Cap-Vert">Cap-Vert</option>
+                <option value="Chine">Chine</option>
+                <option value="Colombie">Colombie</option>
+                <option value="Danemark">Danemark</option>
+                <option value="Djibouti">Djibouti</option>
+                <option value="Dominique">Dominique</option>
+                <option value="Égypte">Égypte</option>
+                <option value="Équateur">Équateur</option>
+                <option value="Danemark">Danemark</option>
+                <option value="Djibouti">Djibouti</option>
+                <option value="Dominique">Dominique</option>
+                <option value="Finlande">Finlande</option>
+                <option value="France">France</option>
+                <option value="Gabon">Gabon</option>
+                <option value="Japon">Japon</option>
+                <option value="Liban">Liban</option>
+                <option value="Malaisie">Malaisie</option>
+                <option value="Macédoine">Macédoine</option>
+                <option value="Madagascar">Madagascar</option>
+                <option value="Malawi">Malawi</option>
+                <option value="Maldives">Maldives</option>
+                <option value="Mali">Mali</option>
+                <option value="Malte">Malte</option>
+                <option value="Maroc">Maroc</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Palestine">Palestine</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Qatar">Qatar</option>
+                <option value="République tchèque">République tchèque</option>
+                <option value="République démocratique du Congo">République démocratique du Congo</option>
+                <option value="Tadjikistan">Tadjikistan</option>
+                <option value="Tanzanie">Tanzanie</option>
+                <option value="Tchad">Tchad</option>
+                <option value="Thaïlande">Thaïlande</option>
+                <option value="Timor oriental">Timor oriental</option>
+                <option value="Togo">Togo</option>  
+                <option value="Tonga">Tonga</option>
+                <option value="Vanuatu">Vanuatu</option>
+                <option value="Vaticani">Vatican</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Viêt Nam">Viêt Nam</option>
+                <option value="Yémen">Yémen</option>
+                <option value="Zambie">Zambie</option>  
+                <option value="Zimbabwe">Zimbabwe</option>          
+            </select><br>
+    
+            <label for="email">E-Mail : </label><br>
+            <input type="email" placeholder="Ex : Zaza@exemple.com" name="email" id="email" required autocomplete="off"><br><br>
+        </div9>       
+       
+
+        <div9 id="section2">
+                <strong>Spécialisation : </strong><br>
+                <input type="checkbox" name="PEOPLE" value="PEOPLE" id="PEOPLE">
+                <label for="PEOPLE">PEOPLE</label><br>
+                <input type="checkbox" name="PROSPERITY" value="PROSPERITY" id="PROSPERITY">
+                <label for="PROSPERITY">PROSPERITY</label><br>
+                <input type="checkbox" name="PLANET" value="PLANET" id="PLANET">
+                <label for="PLANET">PLANET </label><br>
+                <input type="checkbox" name="PEACE" value="PEACE" id="PEACE">
+                <label for="PEACE">PEACE</label><br>
+                <input type="checkbox" name="PARTNERSHIPS" value="PARTNERSHIPS" id="PARTNERSHIPS">
+                <label for="PARTNERSHIPS">PARTNERSHIPS </label><br> <br> 
+        </div9>    
+
+        <div1>
+            <b>Découvrez le rôle de leadership que vous jouez dans votre communauté.</b>
+            
+                <li>Quelle intéraction avez-vous avec votre communauté en dehors de votre  travail professionnel?</li>
+                <li>Quelles contributions avez-vous faites pour lutter contre les maux sociaux de votre communauté?</li>
+                <li>Quels ont été les impacts?</li>
+                
+                <textarea placeholder="Mettez votre réponses ici :" autocomplete="off" required class="zone" name="réponse" id="réponse" rows="8" cols="134%" ></textarea>
+                       
+        </div1>
+       
+        <div2><a href="..\main.html"><input type="submit" value="Envoyer le formulaire ! " class="envoi"></a></div2>
+        
+        
+       
+    </form>
+</body>
+<footer>
+    <span><a href="#haut">vers le haut de la page </a></span>
+        <p class="footer">*Vous serez notifiés par un e-mail si votre condidature a été retenue.</p>
+</footer>
+</html>

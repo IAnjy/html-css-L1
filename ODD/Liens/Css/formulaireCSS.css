@@ -1,0 +1,109 @@
+body
+{
+   background-image: url("sky.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   font-family: "Century gothic";
+   color: black;
+}
+ #section1
+ {
+     line-height: 20px;
+     margin-left:100px;
+     float: left;
+     display: inline-block;
+     width : 500px;
+     padding: 10px 0px 15px 40px;
+     background-color: #f2f2f2;
+     background-color: #f2f2f2;
+     box-shadow: 2px 2px 2px 2px black;
+     border-radius: 10px;
+ }
+ #section2
+ {
+     line-height: 75px;
+     float: right;
+     margin-left: 25px;
+     margin-right: 200px;
+     display: inline-block;
+     width : 500px;
+     padding: 10px 0px 15px 40px;
+     height: 450px;
+     font-size : 20px;
+     background-color: #f2f2f2;
+     box-shadow: 2px 2px 2px 2px black;
+     border-radius: 10px;
+ }
+ .sary
+ {
+     margin-left: 20%;
+     margin-right: 20%;
+     background-color: #f2f2f2;
+     box-shadow: 2px 2px 2px 2px black;
+     border-radius: 10px;
+     padding: 20px;
+ }
+ .h1
+ {
+     text-align: center;
+     
+ }
+ div1
+ {
+    float: left;
+    font-size : 25px;
+    margin-left: 50px;
+    margin-top: 5px;
+     
+ }
+ .footer
+ {
+     text-align: right;
+ }
+ .envoi
+ {
+     width: 200px;
+     height: 50px;
+     margin-left: 45%; 
+     background-image: url("Images/maison.jpg");
+     border-radius: 20px;
+ }
+ .zone
+ {
+    padding: 4px 20px 0 20px;
+    border-radius: 23px;
+ }
+ input[type=text], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+ }
+ input[type=email], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+ }
+ input[type=date], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+ }
+ li
+ {
+    margin-left: 20px;
+ }
+ 
+ 
